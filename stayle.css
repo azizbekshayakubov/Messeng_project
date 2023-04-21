@@ -1,0 +1,165 @@
+body {
+  background-color: #bfd0e0;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #6a96d8;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header h2 {
+  color: white;
+}
+
+span {
+  color: black;
+  font-size: 30px;
+}
+
+.header img {
+  margin: 0;
+  padding: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: 160px;
+}
+
+.header-left span {
+  display: block;
+  width: 2px;
+  height: 2px;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat {
+  margin: 0 auto;
+  width: 480px;
+  height: 415px;
+  background-color: white;
+  position: relative;
+}
+
+fieldset {
+  margin: 0;
+  margin-top: 15px;
+  padding: 15px 0;
+  border-left: none;
+  border-right: none;
+  border-color: #ececec;
+  margin-bottom: 30px;
+}
+
+legend {
+  margin: 0 auto;
+  font-family: serif;
+  color: #868686;
+}
+
+.messeng1::before {
+  content: "10:53";
+  position: absolute;
+  top: 25px;
+  color:#868686
+}
+
+.messeng1 {
+  margin: 0;
+  width: 260px;
+  height: 50px;
+  padding-left: 10px;
+  background-color: #e6edf6;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.messeng2 {
+  margin: 0;
+  margin-left: 185px;
+  margin-top: 30px;
+  width: 285px;
+  height: 50px;
+  padding-left: 10px;
+  background-color: #e6edf6;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.messeng2::after {
+  content: "10:57";
+  position: absolute;
+  top: 105px;
+  left: 435px;
+  color: #868686;
+}
+
+.messeng3::before {
+  content: "11:03";
+  position: absolute;
+  top: 175px;
+  color:#868686;
+}
+
+.messeng3 {
+  margin: 0;
+  width: 90px;
+  height: 36px;
+  padding-left: 10px;
+  background-color: #e6edf6;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.messeng4 {
+  margin: 0;
+  margin-left: 280px;
+  margin-top: 30px;
+  width: 190px;
+  height: 35px;
+  padding-left: 10px;
+  background-color: #ffc2c1;
+  border-radius: 3px;
+ 
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+button {
+  background-color: white;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  color: #7DA0DA;
+  padding: 5px;
+}
